@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,800|Playfair+Display:400,700');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+#wrapper { 
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+body { 
+	background-color: #f3f3f3; 
+	color:#333;
+	font-family: 'Muli', sans-serif;
+	font-weight: 300;
+	line-height:1.5;
+}
+#intro, #inspiration, #recentposts, #feature, #instagram, #tags, #subscribe, #socialmedia {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding:20px;
+}
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding:20px;
+}
+header { 
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+	text-align:right;
+}
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	font-weight: 800;
+	letter-spacing: 1px;
+	text-align: right;
+	text-transform: uppercase;
+}
+nav a {
+	color:inherit;
+	display:inline-block;
+	margin:0 1em;
+	padding:1em;
+	text-decoration:none;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	font-size: 60px;
+}
+
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	font-size: 30px;
+
+}
+
+h3 { 
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	font-size: 22px;
+}
+
+h4 {
+	font-family: 'Muli', sans-serif
+	font-weight: 300;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #999999
+}
+
+p { 
+	font-family: 'Muli', sans-serif;
+	font-size: 18px
+	font-weight: 300;
+}
+
+img {
+	width:400px;
+}
+footer {
+	background-color: #FF957E;
+	border 1px black solid;
+	padding: 20px
+}
+#slogan { 
+	font-family: 'Muli', serif; 
+	font-weight: 300;
+}
+#inspiration { 
+	padding-left: 60px;
+}
+
+#intro {
+	text-align:center;
+}
+
+
+
