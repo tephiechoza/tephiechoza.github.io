@@ -5,14 +5,14 @@
 	box-sizing:border-box;
 }
 #wrapper { 
-	/*background-color: #FFE2B8;
+	/*background-color: #F3F3F3;
 	border: 1px black solid;*/
 	padding: 10px;
 	width: 1176px;
 	margin: auto;
 }
 body { 
-	/* background-color: #f3f3f3; */
+	/* background-color: #f3f3f3;*/
 	color:#333;
 	font-family: 'Muli', sans-serif;
 	font-weight: 300;
@@ -75,6 +75,8 @@ p {
 img {
 	width:100%;
 }
+
+
 #intro {
 	/* background-color: #5b5b5b;*/
 	text-align:center;
@@ -113,11 +115,16 @@ img {
 article a { 
 	text-decoration: none;
 }
-
+#wrapper02 {
+	width: 1440px;
+	background-color: #f3f3f3;
+	margin: auto;
+}
 #recentposts {
 	background-color: #f3f3f3;
 	width: 1176px;
 	padding: 20px;
+	margin: auto;
 }
 .first {
 	width: 870px;
@@ -137,7 +144,8 @@ article a {
 .second {
 	width: 870px;
 	float: right;
-	/* padding: 0px 0px 40px;*/
+	margin: 0px 0px 20px;
+	
 }
 #column3, #column4 {
 	/* padding: 20px,20px;*/
@@ -186,10 +194,17 @@ article a {
 	color: #007df5;
 	padding: 10px;
 }
+#wrapper03 {
+	width: 1440px;
+	background-color: #ffffff;
+	margin: auto;
+}
 
 #feature {
+	width: 1176px;
 	padding: 40px 0px;
 	clear: both;
+	margin: auto;
 }
 .two{
 	margin: 20px 10px 60px;
@@ -204,12 +219,23 @@ article a {
 	color: #007df5;
 	padding: 10px;
 }
+#wrapper4 {
+	width: 1176px;
+	background-color: #ffffff;
+	margin: auto;
+}
 #instagram {
 	/* margin-top: 60px;*/
 	padding: 10px;
 	text-align: center;
 	background-color: #f3f3f3;
 	clear: both;
+}
+
+#wrapper05 {
+	width: 1176px;
+	background-color: #ffffff;
+	margin: auto;
 }
 
 #tags, #subscribe
@@ -219,7 +245,9 @@ article a {
 	margin: 40px 20px 0px 0px;
 	padding: 0px 0px 40px;
 	text-align: center;
+
 }
+
  #tags a {
  	color: #007df5;
  	text-decoration: none;
@@ -231,27 +259,56 @@ article a {
  	padding: 5px;
  }
 
- #sayhello,#socialmedia {
- 	float: left;
- 	width: 33.33%
- }
+
+#wrapper06 {
+	width: 1440px;
+	background-color: #f3f3f3;
+	margin: auto;
+}
+ 
 footer {
+	width: 1176px;
 	background-color: #f3f3f3;
 	padding: 20px;
 	clear:both;
+	margin: auto;
+
 }
+ #sayhello,#socialmedia {
+ 	float: left;
+ 	width: 33.33%
+
+ }
+ #sayhello a {
+ 	float: left;
+ }
+
+ #socialmedia li {
+ 	float: left;
+ 	display: inline;
+ 	padding: 0px 10px 0px 0px;
+ }
+
 footer a { 
 	text-decoration: none;
 	font-size: 14px;
+	float: right;
+
+	
 }
  footer p {
- 	float: left;
+ 	float: right;
  	font-size: 14px;
+ 	text-align: center;
+ 	clear: both;
+ 	padding: 0px 0px 20px 0px;
 }
 footer h3  {
  	font-size: 18px;
 }
-/* .clearfix: after {
+
+
+.clearfix:after {
 	visibility: hidden;
     display: block;
     font-size: 0;
@@ -259,7 +316,7 @@ footer h3  {
     clear: both;
     height: 0;
 }
-/*
+
 
 
 

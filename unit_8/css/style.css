@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,800|Playfair+Display:400,700');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+#wrapper { 
+	padding: 10px;
+	width: 82%;
+	margin: auto;
+}
+body { 
+	color:#333;
+	font-family: 'Muli', sans-serif;
+	font-weight: 300;
+	line-height:1.5;
+	font-size: 16px;
+
+}
+header { 
+	padding: 1em;
+	text-align:right;
+}
+nav {
+	font-weight: 800;
+	letter-spacing: 1px;
+	text-align: right;
+	text-transform: uppercase;
+}
+nav a {
+	color:inherit;
+	display:inline-block;
+	margin:0 0.5em;
+	padding:0 0.5em;
+	text-decoration:none;
+}
+nav a:hover{
+	color: #007df5;
+}
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	font-size: 3.75em;
+	line-height: 1em;
+}
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	font-size: 1.8em;
+
+}
+h3 { 
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	font-size: 1.3em;
+}
+h4 {
+	font-family: 'Muli', sans-serif
+	font-weight: 300;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #999999
+}
+p { 
+	font-family: 'Muli', sans-serif;
+	font-size: 0.875em
+	font-weight: 300;
+}
+img {
+	width:100%;
+}
+
+
+#intro {
+	text-align:center;
+	padding: 1em 0em 1em;	
+}
+#slogan { 
+	font-family: 'Muli', serif; 
+	font-weight: 300;
+	font-size: 1.12em;
+	padding: 0.5em 0em;
+}
+#inspiration {
+	text-align: center;
+	padding: 0em 0 1.25em;
+}
+#inspiration a {
+	color: #007df5;
+	text-decoration: none;
+	padding: 1.875em;
+	text-decoration: none;
+	text-align: center;
+	font-size: 1em;
+}
+#inspiration a:hover{
+	background-color: #f3f3f3;
+	padding: 0.625em 1.875em 0.625em;
+}
+article a { 
+	text-decoration: none;
+}
+#wrapper02 {
+	width: 100%;
+	background-color: #f3f3f3;
+	margin: auto;
+}
+#recentposts {
+	background-color: #f3f3f3;
+	width: 82%;
+	padding: 1.25em;
+	margin: auto;
+}
+.first {
+	width: 73.97%;
+	float:left;
+	margin: 0px 0px 1.25em;
+}
+#column1, #column2 { 
+	float: left;
+	width: 45%;
+	margin: 0px 1.25em 0px 0px;
+ 
+}
+.second {
+	width: 73.97%;
+	float: right;
+	margin: 0px 0px 1.25em;
+	
+}
+#column3, #column4 {
+	float: left;
+	width: 45%;
+	margin: 0px 1.25em 0px 0px;
+}
+.third {
+	width: 73.97%; 
+	float: left;
+}
+#column5, #column6 {
+	float: left;
+	width: 45%;
+	margin: 0px 1.25em 0px 0px;
+}
+.image {
+	background-color: #ffffff;
+	padding: 1.25em;
+}
+.aboutpost {
+	background-color: #ffffff;
+	width: 100%;
+	padding: 0em 1.25em 0em 1.25em;
+}
+.aboutpost a {
+	text-decoration: none;
+	float: right;
+	color: #007df5;
+	padding: 0.625em;
+}
+.aboutpost a:hover
+{
+	color: #111111;
+}
+.pagination {
+	clear: both;
+	text-align: center;
+	padding:1.25em 1.25em;
+	font-weight: 800;
+}
+.pagination a {
+	text-decoration: none;
+	color: #007df5;
+	padding: 0.625em;
+}
+#wrapper03 {
+	width: 100%;
+	background-color: #ffffff;
+	margin: auto;
+}
+
+#feature {
+	width: 82%;
+	padding: 2.5em 0px;
+	clear: both;
+	margin: auto;
+}
+.two{
+	margin: 1.25em 0.625em 3.75em;
+	float: left;
+	display: inline-block;
+	width: 30%;
+	border-bottom: 1px solid #ccc;
+}
+.aboutposttwo a {
+	text-decoration: none;
+	float: right;
+	color: #007df5;
+	padding: 0.625em;
+}
+#wrapper4 {
+	width: 82%;
+	background-color: #ffffff;
+	margin: auto;
+}
+#instagram {
+	padding: 0.625em;
+	text-align: center;
+	background-color: #f3f3f3;
+	clear: both;
+}
+
+#wrapper05 {
+	width: 82%;
+	background-color: #ffffff;
+	margin: auto;
+}
+
+#tags, #subscribe
+{ 
+	float: left;
+	width: 45%;
+	margin: 2.5em 1.25em 0px 0px;
+	padding: 0px 0px 2.5em;
+	text-align: center;
+
+}
+
+ #tags a {
+ 	color: #007df5;
+ 	text-decoration: none;
+ 	padding: 0.3125em;
+ }
+#subscribe a {
+ 	color: #007df5;
+ 	text-decoration: none;
+ 	padding: 0.3125em;
+ }
+
+
+#wrapper06 {
+	width: 100%;
+	background-color: #f3f3f3;
+	margin: auto;
+}
+ 
+footer {
+	width: 82%;
+	background-color: #f3f3f3;
+	padding: 1.25em;
+	clear:both;
+	margin: auto;
+
+}
+ #sayhello,#socialmedia {
+ 	float: left;
+ 	width: 33.33%
+
+ }
+ #sayhello a {
+ 	float: left;
+ }
+
+ #socialmedia li {
+ 	float: left;
+ 	display: inline;
+ 	padding: 0px 0.625em 0px 0px;
+ }
+
+footer a { 
+	text-decoration: none;
+	font-size: 0.875em;
+	float: right;
+
+	
+}
+ footer p {
+ 	float: right;
+ 	font-size: 0.875em;
+ 	text-align: center;
+ 	clear: both;
+ 	padding: 0px 0px 1.25em 0px;
+}
+footer h3  {
+ 	font-size: 1.125em;
+}
+
+
+.clearfix:after {
+	visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+@media only screen and (max-width: 768px) {
+	
+	nav {
+		text-align: center;
+	}
+	#wrapper02 {
+		width: 100%;
+		background-color: #f3f3f3;
+		margin: auto;
+	}
+
+	#recentposts{
+		width: 90%;
+		margin: auto;
+	}
+	.first {
+		width: 100%;
+		float: none;
+	}
+	#column1, #column2 { 
+	float: left;
+	width: 45%;
+	margin: 0px 1.25em 1.25em 0px;
+  	}
+	.second {
+		width: 100%;
+		float: none;
+	}
+	#column3, #column4 { 
+	float: left;
+	width: 45%;
+	margin: 0px 1.25em 1.25em 0px;
+  	}
+	.third {
+		width: 100%; 
+		float: none;
+	}
+	#column4, #column5 { 
+	float: left;
+	width: 45%;
+	margin: 0px 1.25em 1.25em 0px;
+  	}
+
+  	.two  p {
+	font-size: 0.875em;
+	}
+	.two h4 {
+		font-size: 0.875em;
+	}
+  	.aboutposttwo a {
+	text-decoration: none;
+	float: right;
+	color: #007df5;
+	padding: 0.3em;
+	font-size: 0.825em;
+	}
+	#instagram {
+		padding: 0.625em 5em 0.625em 5em;
+		text-align: left;
+		clear: both;
+	}
+
+	#wrapper05 {
+		width: 84%;
+		background-color: #ffffff;
+		margin: auto;
+	}
+
+	#tags, #subscribe
+	{ 
+		float: left;
+		width: 45%;
+		margin: 2.5em 1.25em 0px 0px;
+		padding: 0px 0px 2.5em;
+		text-align: center;
+	}
+	#wrapper06 {
+		width: 100%;
+		background-color: #f3f3f3;
+		margin: auto;
+	}
+	 
+	footer {
+		width: 84%;
+		background-color: #f3f3f3;
+		padding: 1.25em;
+		clear:both;
+		margin: auto;
+
+	}
+	 #sayhello,#socialmedia {
+	 	float: left;
+	 	width: 33.33%
+
+	 }
+}
+@media only screen and (max-width: 505px)  {
+
+	#recentposts{
+		width: 100%;
+		margin: auto;
+	}
+	.first {
+		width: 100%;
+		float: none;
+	}
+
+	#column1, #column2 { 
+	float: left;
+	width: 100%;
+	margin: 0px 1.25em 1.25em 0px;
+  	}
+
+  	.second {
+		width: 100%;
+		float: none;
+	}
+
+	#column3, #column4 { 
+	float: left;
+	width: 100%;
+	margin: 0px 1.25em 1.25em 0px;
+  	}
+  	.third {
+		width: 100%;
+		float: none;
+	}
+
+	#column5, #column6 { 
+	float: left;
+	width: 100%;
+	margin: 0px 1.25em 1.25em 0px;
+  	}
+
+  	#feature {
+	width: 90%;
+	padding: 1em 0px;
+	clear: both;
+	margin: auto;
+	}
+	.two{
+		margin: 1.25em 0.625em 2em;
+		float: none;
+		width: 90%;
+		border-bottom: 1px solid #ccc;
+	}
+
+	#wrapper4 {
+	width: 100%;
+	background-color: #ffffff;
+	margin: auto;
+	}
+	#instagram {
+
+		padding: 0.625em 1em 0.625em 2em;
+		text-align: left;
+		clear: both;
+		font-size: 0.875em;
+		}
+
+	#wrapper05 {
+		width: 100%;
+		background-color: #ffffff;
+		margin: auto;
+	}
+
+	#tags, #subscribe
+	{ 
+		float: none;
+		width: 100%;
+		margin: 2.5em 1em 0px 0.5em;
+		padding: 0em 1em 2.5em;
+		text-align: center;
+	}
+
+	#tags {
+		border-bottom: 1px solid #ccc;
+	}
+
+	#subscribe a{
+		text-align: center;
+		float: none;
+	}
+
+	footer {
+		width: 100%;
+		background-color: #f3f3f3;
+		padding: 1.25em;
+		clear:both;
+		margin: auto;
+
+	}
+	 #sayhello,#socialmedia {
+	 	float: left;
+	 	width: 50%
+	}
+
+	footer a { 
+	float: none;
+	text-align: center;
+	}
+
+	footer p {
+		text-align: center;
+		float: none;
+	}
+
+
+}
+
+
+
+
+
